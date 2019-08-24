@@ -1,0 +1,25 @@
+###Maven
+/target/
+
+###Eclipse
+.classpath
+.project
+.metadata
+
+.idea/*
+
+
+###java
+#compiled class file
+*.class
+
+#loog file
+*.log
+
+#package files
+*.jar
+*.war
+*.zip
+
+#virtual machine crash logs
+hs_err_pid*
