@@ -1,9 +1,10 @@
 package com.service.inteloom;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import com.service.inteloom.service.WelcomeService;
 
 @RestController
 public class WelcomeController {
@@ -19,10 +20,3 @@ public class WelcomeController {
 
 }
 
-@Component
- class WelcomeService{
-	
-	public String message() {
-		return "Mounika!";
-	}
-}
